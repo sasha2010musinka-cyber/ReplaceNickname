@@ -1,0 +1,19 @@
+name: CustomDisplayNick
+version: 1.0.0
+main: com.example.customdisplaynick.CustomDisplayNickPlugin
+api-version: '1.21'
+softdepend: [PlaceholderAPI]
+commands:
+  displaynick:
+    description: Управление кастомными никнеймами
+    permission: customdisplaynick.use
+    aliases: [dnick]
+permissions:
+  customdisplaynick.use:
+    default: op
+  customdisplaynick.set:
+    default: op
+  customdisplaynick.reset:
+    default: op
+  customdisplaynick.reload:
+    default: op
